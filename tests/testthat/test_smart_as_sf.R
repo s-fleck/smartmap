@@ -21,7 +21,8 @@ test_that("smart_as_sf works as expected for bbox objects", {
 
 
 test_that("smart_as_sf.character works", {
-  skip_on_cran()
+  testthat::skip("url no longer valid")
+
   tf  <- tempfile(fileext = ".zip")
   tf2 <- tempfile()
   on.exit(unlink(c(tf, tf2)))

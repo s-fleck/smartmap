@@ -1,9 +1,11 @@
-smartmap (dev)
+# 0.2.0
 
-* add `unsf()`
-* add vignette
-* (slightly) improved heuristics for guessing longitude and latitude columns
+- add `unsf()`
+- add vignette
+- (slightly) improved heuristics for guessing longitude and latitude columns
+- clean up tests
 
-smartmap 0.1.1
 
-* first CRAN release
+# 0.1.1
+
+- first CRAN release

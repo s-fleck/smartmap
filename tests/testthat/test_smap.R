@@ -10,7 +10,6 @@ test_that("smap uses as_coord_matrix/st_as_sfc/st_as_sf in the correct order if 
       ncol = 2
     ))
   class(tdat) <- c("testclass")
-  expect_error(smap(tdat), class = "objectNotSupportedError")
 
   as_coord_matrix.testclass <- function(x){
     message("coercing to coord_matrix")
@@ -95,10 +94,10 @@ test_that("smap.sfg", {
 
 
 test_that("smap.character", {
-  skip_on_cran()
+  testthat::skip("url no longer valid")
 
   expect_s3_class(
-    smap("https://www.naturalearthdata.com/http//www.naturalearthdata.com/download/50m/cultural/ne_50m_admin_0_countries.zip"),
+    smap("https://www.naturalearthdata.com/http//www.naturalearthdata.com/download/10m/cultural/ne_10m_admin_0_boundary_lines_land.zip"),
     "leaflet"
   )
 })

@@ -95,6 +95,7 @@ smart_as_sf.character <- function(
   if (is_url(infile)){
     tf <- paste0(tempfile(), basename(x))
     on.exit(unlink(tf))
+    browser()
     utils::download.file(x, destfile = tf)
     infile <- tf
   }
