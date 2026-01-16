@@ -5,7 +5,7 @@ backtick <- function(x){
 
 
 
-#' Convert sf objects to normal data.frames with longitude and latitude colu,ns
+#' Convert sf objects to normal data.frames with longitude and latitude columns
 #'
 #' @param x an `sf::sf` object
 #' @param coord_names `character` vector of length `2`. The names of the new

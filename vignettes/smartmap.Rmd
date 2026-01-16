@@ -27,7 +27,7 @@ only three functions:
 
 * `smap()`: The core function. Smartly create [leaflet](https://rstudio.github.io/leaflet/)
   maps from R objects. Maps created with `smap()` contain two dialogues in the top
-  right corner: one for switiching the background map and one for measuring 
+  right corner: one for switching the background map and one for measuring 
   distances and areas.
 * `smart_as_sf()`: Applies the same heuristics as `smap()`, but returns 
   [sf](https://r-spatial.github.io/sf/) objects instead.
@@ -80,7 +80,8 @@ smap(cities)
 looks inside zip files if necessary!
 
 ```{r cache = TRUE, out.width = "100%"}
-smap("https://www.naturalearthdata.com/http//www.naturalearthdata.com/download/50m/cultural/ne_50m_admin_0_countries.zip")
+# disabled url broken
+# smap("https://www.naturalearthdata.com/http//www.naturalearthdata.com/download/50m/cultural/ne_50m_admin_0_countries.zip")
 
 ```
 

@@ -2,7 +2,7 @@
 % Please edit documentation in R/utils.R
 \name{unsf}
 \alias{unsf}
-\title{Convert sf objects to normal data.frames with longitude and latitude colu,ns}
+\title{Convert sf objects to normal data.frames with longitude and latitude columns}
 \usage{
 unsf(x, coord_names = c("lon", "lat"))
 }
@@ -16,5 +16,5 @@ that should contain the coordinates from the geometry column of \code{x}.}
 a \code{data.frame}
 }
 \description{
-Convert sf objects to normal data.frames with longitude and latitude colu,ns
+Convert sf objects to normal data.frames with longitude and latitude columns
 }
