@@ -3,12 +3,6 @@
 
 # smartmap
 
-<!-- badges: start -->
-
-[![Lifecycle:
-maturing](https://img.shields.io/badge/lifecycle-maturing-blue.svg)](https://www.tidyverse.org/lifecycle/#maturing)
-<!-- badges: end -->
-
 **smartmap** is an R package for previewing spatial data as
 [leaflet](https://rstudio.github.io/leaflet/) maps. It is designed for
 interactive use and produces nice maps with minimal typing required. In
@@ -31,6 +25,11 @@ or get the development version from [GitHub](https://github.com/) with:
 # install.packages("remotes")
 remotes::install_github("s-fleck/smartmap")
 ```
+
+## Development status
+
+smartmap is in maintenance mode since I don’t much work with spatial
+data anymore, so new features are unlikely to be added.
 
 ## Example
 
